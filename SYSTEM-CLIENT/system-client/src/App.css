@@ -1,0 +1,82 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-height {
+  max-height: 100%;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  transition: transform 0.3s ease-in-out;
+}
+
+.course-card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 240px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.center-crop {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+
+.c-text {
+  font-size: 25px;
+  font-family: 'Cambria'
+}
+
+.txt {
+  font-family: 'Cambria';
+}
+
+.cc-title {
+  font-weight: bold;
+  font-family: 'Lucida Sans'
+}
+
+.p-txt {
+  font-family: 'Cambria';
+  font-size: 25px;
+}
